@@ -1,0 +1,16 @@
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 200;
+  color: #00204a;
+}
+.box {
+  width: 30%;
+  text-align: center;
+  margin: 50px auto;
+  background: rgb(255, 228, 228);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,17 @@
+<h1 style="text-align: center;">todo-details-component</h1>
+
+
+  <table class="center">
+    <tr>
+      <th>Name</th>
+      <th>ID</th>
+      <th>Time</th>
+    </tr>
+    <tr *ngFor="let Item of todolist_details">
+      <td>{{Item.name}}</td>
+      <td>{{Item.id}}</td>
+      <td>{{Item.time}}</td>
+    </tr>
+  </table>
+
+
